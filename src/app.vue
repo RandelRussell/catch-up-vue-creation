@@ -70,7 +70,7 @@ export default {
         <template #start>
           <pv-button icon="pi pi-bars" label="CatchUp"
                      text @click="toggleSidebar"></pv-button>
-          <side-menu v-model:visible="sidebarVisible" v-on:close="toggleSidebar"
+          <side-menu v-model:visible="sidebarVisible" v-on:sidebar-closed="toggleSidebar"
                      v-on:source-selected="setSource"></side-menu>
         </template>
       </pv-menubar>

@@ -77,7 +77,7 @@ export default {
     </div>
   </div>
   <div>
-    <article-list v-if="errors" :articles="articles"></article-list>
+    <article-list v-if="!errors.length" :articles="articles"></article-list>
     <unavailable-content v-else :errors="errors"></unavailable-content>
   </div>
   <footer-content></footer-content>

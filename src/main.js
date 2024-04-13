@@ -1,5 +1,6 @@
 import './assets/main.css'
 
+import i18n from "@/i18n.js";
 import PrimeVue from "primevue/config";
 
 // Add PrimeFlex
@@ -33,4 +34,6 @@ createApp(App)
     .component('pv-menu', Menu)
     .component('pv-menubar', MenuBar)
     .component('pv-toolbar', Toolbar)
+    .use(i18n)
     .mount('#app')
+

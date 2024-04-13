@@ -1,5 +1,5 @@
 <script>
-import {NewsApiService} from "../services/news-api.service.js";
+import {NewsApiService} from "@/news/services/news-api.service.js";
 export default {
   name: "side-menu",
   props: {

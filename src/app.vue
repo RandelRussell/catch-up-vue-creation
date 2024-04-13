@@ -1,10 +1,10 @@
 <script>
-import {NewsApiService} from "./news/services/news-api.service.js";
-import SideMenu from "./news/components/side-menu.component.vue";
-import ArticleList from "./news/components/article-list.component.vue";
-import UnavailableContent from "./news/components/unavailable-content.component.vue";
-import FooterContent from "./public/components/footer-content.component.vue";
-import {Article} from "./news/model/article.entity.js";
+import {NewsApiService} from "@/news/services/news-api.service.js";
+import SideMenu from "@/news/components/side-menu.component.vue";
+import ArticleList from "@/news/components/article-list.component.vue";
+import UnavailableContent from "@/news/components/unavailable-content.component.vue";
+import FooterContent from "@/public/components/footer-content.component.vue";
+import {Article} from "@/news/model/article.entity.js";
 export default {
   name: 'App',
   components: {ArticleList, FooterContent, UnavailableContent, SideMenu},
